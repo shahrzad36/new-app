@@ -1,17 +1,15 @@
-import Card from "./Card.js";
+import User from "./User.js";
 
 function App(){
     return(   
     <>
-        <header>header</header>
-        <section>
+        
           <div className="row">
-           <Card />
-           <Card />
-           <Card />
+           <User/>
+           <User />
+           <User />
           </div>
-        </section>
-        <footer>footer</footer>
+     
     </>
     );
 }
