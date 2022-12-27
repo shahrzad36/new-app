@@ -2,12 +2,13 @@ import React from "react";
 
 import "./User.css";
 
-function User( props){
+function User({name, age, height}){
+ // let {name, age, height} = props = props destructuring
     return(  
             <div className="container">
-             <p>name : {props.name}</p>
-             <p>name : {props.age}</p>
-             <p>name : {props.height}</p>
+             <p>name : {name}</p>
+             <p>name : {age}</p>
+             <p>name : {height}</p>
           </div>
     );
 }
